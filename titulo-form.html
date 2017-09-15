@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Titulo-Form-Raster</title>
+        <link rel="stylesheet" type="text/css" href="style-reset.css">
+        <link rel="stylesheet" type="text/css" href="titulo-form.css">
+    </head>
+    <body>
+        <div class="outer">
+        <main>
+            <h1>República Federativa do Brasil</h1>
+            <h2>Título Eleitoral</h2>
+            <!--img id="brasao-da-republica" src="brasao_color1-svgomg.svg" alt="brasão da república"-->
+            <form action="#">
+                <div class="linha-input">
+                    <fieldset>
+                        <legend>Nome do Eleitor</legend>
+                        <textarea name="nome" cols="40" rows="2">Luciano Soares Bohnert</textarea>
+                    </fieldset>
+                </div>
+                <div class="linha-input">
+                    <fieldset>
+                        <legend>Data de Nascimento</legend>
+                        <input type="text" name="data-nascimento" value="17/02/1978" size=10>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Nº Inscrição</legend>
+                        <input type="text" name="numero-inscricao" value="011983892020" size=14>
+                    </fieldset>
+                    <fieldset class="field3">
+                        <legend class="centralize">Zona</legend>
+                        <input type="text" name="zona" value="014" size="3">
+                    </fieldset>
+                    <fieldset class="field4">
+                        <legend class="centralize">Seção</legend>
+                        <input type="text" name="secao" value="0063" size="4">
+                    </fieldset>
+                </div>
+                <div class="linha-input">
+                    <fieldset>
+                        <legend>Município/UF</legend>
+                        <input type="text" name="municipio-uf" value="Brasília/DF" size="25">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Data de Emissão</legend>
+                        <input type="text" name="data-emissao" value="05/05/94" size="8">
+                    </fieldset>
+                </div>
+                <div class="linha-input">
+                    <fieldset>
+                        <legend class="centralize">Juiz Eleitoral</legend>
+                        <textarea name="juiz-eleitoral" cols="40" rows="2">
+                        </textarea>
+                    </fieldset>
+                </div>
+                <div style="clear:both;"></div>
+            </form>
+        </main>
+        </div>
+    </body>
+</html>
