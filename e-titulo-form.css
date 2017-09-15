@@ -62,3 +62,7 @@ label {
 input {
     width: 100%;
 }
+
+.centralize {
+    text-align: center;
+}   
