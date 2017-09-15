@@ -113,14 +113,14 @@ main {
     transform: rotate(90deg) scale(1.3);
 }
 
-html{
+body{
     display: table;
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
-body {
+.outer {
     display: table-cell;
     vertical-align: middle;
 }
