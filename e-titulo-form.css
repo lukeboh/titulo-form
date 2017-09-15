@@ -47,10 +47,10 @@ fieldset {
     float: left;
 }
 
-#field1 {
+#field3 {
     width: 70%;
 }
-#field2 {
+#field4 {
     width: 30%;
 }
 label {
@@ -100,9 +100,14 @@ h2 {
     height: 48px;
     width: 48px;
     position: absolute;
-    top: 8px;
-    left: 5px;
+    top: 158px;
+    left: 155px;
     
+}
+
+body {
+    padding: 150px;
+    transform: rotate(90deg);
 }
 
 
