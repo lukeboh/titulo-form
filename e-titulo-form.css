@@ -14,15 +14,6 @@ fieldset {
     background: rgba(239, 255, 222, 0.8);
 }
 
-body {
-    background-color: #d6f5bf;
-    background-image: url("brasao_color1-svgomg.svg");
-    background-size: 200px;
-    background-repeat: no-repeat;
-    background-position: center 20px;
-    
-}
-
 legend {
     font-family: sans-serif;
     text-transform: uppercase;
@@ -75,6 +66,11 @@ input {
 }  
 
 main {
+    background-color: #d6f5bf;
+    background-image: url("brasao_color1-svgomg.svg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center 20px;
     border-width:5px;  
     border-style:dotted;
     border-color: forestgreen;
