@@ -14,7 +14,7 @@ fieldset {
 }
 
 body {
-    background-color: #d6f5bf
+    background-color: #d6f5bf;
 }
 
 legend {
@@ -66,4 +66,41 @@ input {
 
 .centralize {
     text-align: center;
-}   
+}  
+
+main {
+    border-width:5px;  
+    border-style:dotted;
+    border-color: forestgreen;
+}
+
+h1, h2 {
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+h1 {
+    font-family: serif;
+    background-color: forestgreen;
+    font-size: 13px;
+    padding: 2px;
+    color: white;
+}
+
+h2 {
+    font-family: serif;
+    font-size: 14px;
+    padding: 2px;
+    padding-bottom: 20px;
+}
+
+#brasao-da-republica {
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    
+}
+
+
