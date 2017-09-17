@@ -115,7 +115,10 @@ fieldset {
    margin-right: 3px; 
 }
 
-#formulario-preimpresso > form > div:nth-child(2) > fieldset:nth-child(4), #formulario-preimpresso > form > div:nth-child(3) > fieldset:nth-child(2)  {
+#formulario-preimpresso > form > div:nth-child(1) > fieldset, 
+#formulario-preimpresso > form > div:nth-child(2) > fieldset:nth-child(4), 
+#formulario-preimpresso > form > div:nth-child(3) > fieldset:nth-child(2),
+#formulario-preimpresso > form > div:nth-child(4) > fieldset {
    margin-right: 0px; 
 }
 
@@ -140,6 +143,7 @@ input[type="text"], textarea
     font-weight: bold;
     resize: none;
     padding: 0px;
+    margin: 0px;
     color: rgba(0, 0, 0, 1.0);
 }
 
