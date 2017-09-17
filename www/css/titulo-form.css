@@ -1,3 +1,102 @@
+/*
+    Classes for box (like div) centralization on screen.
+    https://stackoverflow.com/questions/396145/how-to-vertically-center-a-div-for-all-browsers
+*/
+.outer-centralizer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle-centralizer {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner-centralizer {
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/*
+    Structure and background 
+*/
+body{
+    background-color: rgba(255,255,255,0.1);
+}
+
+#formulario-preimpresso {
+    background-color: #d6f5bf;
+    background-image: url("../images/Titulo_Eleitoral.png");
+    background-size: 770px;
+    background-repeat: no-repeat;
+    background-position: -4px 0px;
+    border-width:0px;  
+    border-style:dotted;
+    border-color: forestgreen;
+}
+
+main {
+    width: 9.9cm;
+    height: 6.4cm;
+    margin: auto;
+    #transform: /* rotate(90deg) */ scale(1.5);
+}
+/*
+    Headers
+*/
+h1, h2 {
+    text-transform: uppercase; 
+    text-align: center;
+    color: rgba(255, 255, 255, 0.0);
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: serif;
+    background-color: rgba(0, 100, 0, 0.0);
+    height: 0.8cm;
+    font-size: 13px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.0);
+    margin-bottom: 0px;
+}
+
+h2 {
+    background-color: rgba(0, 200, 0, 0.0);
+    font-family: serif;
+    height: 0.5cm;
+    font-size: 11px;
+    padding: 4px;
+}
+
+#brasao-da-republica {
+    height: 48px;
+    width: 48px;
+    position: relative;
+    top: -15px;
+    left: 7px;
+    float: left;
+}
+
+/*
+    Form and Fields
+*/
+form {
+    background-color: rgba(0, 200, 200, 0.0);
+    padding-left: 19px;
+    padding-right: 19px;
+    margin-top: 21px;
+}
+
+.linha-input {
+    background-color: rgba(0, 200, 200, 0.0);
+    float: left;
+    clear: both;
+    margin-bottom: 5px;
+}
+
 fieldset { 
     box-sizing: border-box;
     display: block;
@@ -6,8 +105,10 @@ fieldset {
     border-color: rgba(0, 0, 0, 0.0);
     border-image: initial;
     background: rgba(239, 255, 222, 0.0);
+    background-color: rgba(0, 180, 180, 0.0);
     padding: 3px 3px 2px 3px;
     margin-right: 4px;
+    float: left;
 }
 
 #formulario-preimpresso > form > div:nth-child(2) > fieldset:nth-child(2), #formulario-preimpresso > form > div:nth-child(2) > fieldset:nth-child(3) {
@@ -42,109 +143,13 @@ input[type="text"], textarea
     color: rgba(0, 0, 0, 1.0);
 }
 
-.linha-input {
-    background-color: rgba(0, 200, 200, 0.0);
-    float: left;
-    clear: both;
-    margin-bottom: 5px;
-}
-
-fieldset, input {
-    background-color: rgba(0, 180, 180, 0.0);
-}
-
-.linha-input fieldset {
-    float: left;
-}
-
 label {
     float:left;
     font-weight:bold;
 }
-input {
-    width: 100%;
-}
 
 .centralize {
     text-align: center;
-}  
-
-#formulario-preimpresso {
-    background-color: #d6f5bf;
-    background-image: url("../images/Titulo_Eleitoral.png");
-    background-size: 770px;
-    background-repeat: no-repeat;
-    background-position: -4px 0px;
-    border-width:0px;  
-    border-style:dotted;
-    border-color: forestgreen;
-}
-
-h1, h2 {
-    text-transform: uppercase; 
-    text-align: center;
-    color: rgba(255, 255, 255, 0.0);
-    box-sizing: border-box;
-}
-
-h1 {
-    font-family: serif;
-    background-color: rgba(0, 100, 0, 0.0);
-    height: 0.8cm;
-    font-size: 13px;
-    padding: 10px;
-    color: rgba(255, 255, 255, 0.0);
-    margin-bottom: 0px;
-}
-
-h2 {
-    background-color: rgba(0, 200, 0, 0.0);
-    font-family: serif;
-    height: 0.5cm;
-    font-size: 11px;
-    padding: 4px;
-}
-
-#brasao-da-republica {
-    height: 48px;
-    width: 48px;
-    position: relative;
-    top: -15px;
-    left: 7px;
-    float: left;
-    
-}
-
-main {
-    width: 9.9cm;
-    height: 6.4cm;
-    margin: auto;
-    transform: /* rotate(90deg) */ scale(1.5);
-}
-
-body{
-    background-color: darkgray;
-    display: table;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-
-.outer {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-main {
-    margin-left: auto;
-    margin-right: auto; 
-}
-
-form {
-    background-color: rgba(0, 200, 200, 0.0);
-    padding-left: 19px;
-    padding-right: 19px;
-    margin-top: 21px;
 }
 
 #nome{
