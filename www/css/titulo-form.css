@@ -3,9 +3,9 @@ fieldset {
     display: block;
     border-width: 1px;
     border-style: groove;
-    border-color: magenta;
+    border-color: rgba(0, 0, 0, 0.0);
     border-image: initial;
-    background: rgba(239, 255, 222, 0.6);
+    background: rgba(239, 255, 222, 0.0);
     padding: 3px 3px 2px 3px;
     margin-right: 4px;
 }
@@ -26,12 +26,12 @@ legend {
     font-family: sans-serif;
     text-transform: uppercase;
     font-size: 7px;
-    color: magenta;
+    color: rgba(0, 0, 0, 0.0);
 }
 
 input[type="text"], textarea
 {
-    background: rgba(239, 255, 222, 0.8);
+    background: rgba(239, 255, 222, 0.0);
     border: none;
     font-family: sans-serif;
     font-size: 14px;
@@ -39,18 +39,18 @@ input[type="text"], textarea
     font-weight: bold;
     resize: none;
     padding: 0px;
-    #color: transparent;
+    color: rgba(0, 0, 0, 1.0);
 }
 
 .linha-input {
-    #background-color: aquamarine;
+    background-color: rgba(0, 200, 200, 0.0);
     float: left;
     clear: both;
     margin-bottom: 5px;
 }
 
 fieldset, input {
-    #background-color: skyblue;
+    background-color: rgba(0, 180, 180, 0.0);
 }
 
 .linha-input fieldset {
@@ -83,22 +83,22 @@ input {
 h1, h2 {
     text-transform: uppercase; 
     text-align: center;
-    color: blue;
+    color: rgba(255, 255, 255, 0.0);
     box-sizing: border-box;
 }
 
 h1 {
     font-family: serif;
-    background-color: rgba(0, 100, 0, 0.5);
+    background-color: rgba(0, 100, 0, 0.0);
     height: 0.8cm;
     font-size: 13px;
     padding: 10px;
-    color: blue;
+    color: rgba(255, 255, 255, 0.0);
     margin-bottom: 0px;
 }
 
 h2 {
-    background-color: rgba(0, 200, 0, 0.5);
+    background-color: rgba(0, 200, 0, 0.0);
     font-family: serif;
     height: 0.5cm;
     font-size: 11px;
@@ -141,7 +141,7 @@ main {
 }
 
 form {
-    background-color: rgba(0, 200, 200, 0.3);
+    background-color: rgba(0, 200, 200, 0.0);
     padding-left: 19px;
     padding-right: 19px;
     margin-top: 21px;
