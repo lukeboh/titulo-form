@@ -4,8 +4,8 @@ threadsafe: true
 
 handlers:
 - url: /
-  static_files: www/e-titulo-form.html
-  upload: www/e-titulo-form.html
+  static_files: www/titulo-form.html
+  upload: www/titulo-form.html
 
 - url: /(.*)
   static_files: www/\1
