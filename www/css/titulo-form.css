@@ -67,7 +67,7 @@ input {
     text-align: center;
 }  
 
-main {
+#formulario-preimpresso {
     background-color: #d6f5bf;
     background-image: url("../images/Titulo_Eleitoral.png");
     background-size: 770px;
@@ -81,23 +81,26 @@ main {
 h1, h2 {
     text-transform: uppercase; 
     text-align: center;
-    color: transparent;
+    color: blue;
+    box-sizing: border-box;
 }
 
 h1 {
     font-family: serif;
-    background-color: transparent;
+    background-color: rgba(0, 100, 0, 0.5);
+    height: 0.8cm;
     font-size: 13px;
-    padding: 2px;
-    color: transparent;
-    margin-bottom: 18px;
+    padding: 10px;
+    color: blue;
+    margin-bottom: 0px;
 }
 
 h2 {
+    background-color: rgba(0, 200, 0, 0.5);
     font-family: serif;
-    font-size: 14px;
-    padding: 2px;
-    padding-bottom: 20px;
+    height: 0.5cm;
+    font-size: 11px;
+    padding: 4px;
 }
 
 #brasao-da-republica {
