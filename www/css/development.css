@@ -1,0 +1,43 @@
+/*
+    Colorização para entender posicionamento
+*/
+body{
+    background-color: rgba(0,0,0,0.5);
+}
+
+h1, h2 {
+    color: rgba(255, 255, 255, 1.0);
+}
+
+h1 {
+    background-color: rgba(0, 100, 0, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+h2 {
+    background-color: rgba(0, 200, 0, 0.5);
+}
+
+form {
+    background-color: rgba(0, 200, 200, 0.5);
+}
+
+.linha-input {
+    background-color: rgba(0, 200, 200, 0.5);
+}
+
+fieldset { 
+    border-color: rgba(0, 0, 0, 1.0);
+    background: rgba(239, 255, 222, 0.5);
+    background-color: rgba(0, 180, 180, 0.5);
+}
+
+legend {
+    color: rgba(0, 0, 0, 1.0);
+}
+
+input[type="text"], textarea
+{
+    background: rgba(239, 255, 222, 0.5);
+    color: rgba(0, 0, 0, 1.0);
+}
