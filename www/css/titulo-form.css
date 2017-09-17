@@ -70,9 +70,9 @@ input {
 main {
     background-color: #d6f5bf;
     background-image: url("../images/Titulo_Eleitoral.png");
-    background-size: 800px;
+    background-size: 770px;
     background-repeat: no-repeat;
-    background-position: 0px 0px;
+    background-position: -4px 0px;
     border-width:0px;  
     border-style:dotted;
     border-color: forestgreen;
@@ -111,10 +111,10 @@ h2 {
 }
 
 main {
-    width: 396px;
-    height: 250px;
+    width: 9.9cm;
+    height: 6.4cm;
     margin: auto;
-    #transform: rotate(90deg) scale(1.3);
+    transform: /* rotate(90deg) */ scale(1.5);
 }
 
 body{
