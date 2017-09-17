@@ -1,29 +1,37 @@
 fieldset { 
+    box-sizing: border-box;
     display: block;
-    -webkit-margin-start: 2px;
-    -webkit-margin-end: 2px;
-    -webkit-padding-before: 0.35em;
-    -webkit-padding-start: 0.75em;
-    -webkit-padding-end: 0.75em;
-    -webkit-padding-after: 0.625em;
-    min-width: -webkit-min-content;
     border-width: 1px;
     border-style: groove;
-    border-color: transparent;
+    border-color: magenta;
     border-image: initial;
-    background: rgba(239, 255, 222, 0.0);
+    background: rgba(239, 255, 222, 0.6);
+    padding: 3px 3px 2px 3px;
+    margin-right: 4px;
+}
+
+#formulario-preimpresso > form > div:nth-child(2) > fieldset:nth-child(2), #formulario-preimpresso > form > div:nth-child(2) > fieldset:nth-child(3) {
+   margin-right: 3px; 
+}
+
+#formulario-preimpresso > form > div:nth-child(2) > fieldset:nth-child(4), #formulario-preimpresso > form > div:nth-child(3) > fieldset:nth-child(2)  {
+   margin-right: 0px; 
+}
+
+#formulario-preimpresso > form > div:nth-child(2) > fieldset, #formulario-preimpresso > form > div:nth-child(3) > fieldset  {
+    padding-top: 0px;
 }
 
 legend {
     font-family: sans-serif;
     text-transform: uppercase;
-    font-size: 9px;
-    color: transparent;
+    font-size: 7px;
+    color: magenta;
 }
 
 input[type="text"], textarea
 {
-    background: rgba(239, 255, 222, 0.1);
+    background: rgba(239, 255, 222, 0.8);
     border: none;
     font-family: sans-serif;
     font-size: 14px;
@@ -31,30 +39,24 @@ input[type="text"], textarea
     font-weight: bold;
     resize: none;
     padding: 0px;
+    #color: transparent;
 }
 
 .linha-input {
     #background-color: aquamarine;
     float: left;
     clear: both;
+    margin-bottom: 5px;
 }
 
 fieldset, input {
     #background-color: skyblue;
 }
-fieldset {
-    padding: 3px;
-}
+
 .linha-input fieldset {
     float: left;
 }
 
-#field3 {
-    width: 70%;
-}
-#field4 {
-    width: 30%;
-}
 label {
     float:left;
     font-weight:bold;
@@ -139,11 +141,42 @@ main {
 }
 
 form {
-    padding-left: 22px;
+    background-color: rgba(0, 200, 200, 0.3);
+    padding-left: 19px;
+    padding-right: 19px;
+    margin-top: 21px;
 }
-body > div > main > form > div:nth-child(2) > fieldset:nth-child(2) {
-    width: 140px;
+
+#nome{
+    width: 328px;
+    height: 31px;
 }
-body > div > main > form > div:nth-child(3) > fieldset:nth-child(1) {
-     width: 244px;
+
+#data-nascimento{
+    width: 91px;
+}
+
+#numero-inscricao{
+    width: 133px;
+}
+
+#zona{
+    width: 35px;
+}
+
+#secao{
+    width: 35px;
+}
+
+#municipio-uf{
+    width: 225px;
+}
+
+#data-emissao{
+    width: 91px;
+}
+
+#juiz-eleitoral{
+    width: 328px;
+    height: 16px;
 }
