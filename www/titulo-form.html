@@ -58,11 +58,27 @@
                 </div>
             </form>
         </main>
-        <footer>
-            <div style="clear:both;" class="centralize">
+        <footer style="clear:both;margin-top:10px" class="centralize">
+            <div>
+                <a href="#" onclick="unsetModerno();">Clássico</a> 
+                <a href="#" onclick="setModerno();">Moderno</a>
+            </div>
+            <div>
                 O objetivo deste site é <strong>didático</strong>, para testar como um documento poderia ser impresso puramente com HTML e CSS. <strong>O documento gerado não tem valor legal.</strong>
             </div>
         </footer>
         </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script>
+            function setModerno() {
+                if($("#css-moderno").length == 0) {
+                      $('head').append('<link rel="stylesheet" href="css/e-titulo-form.css" type="text/css" id="css-moderno" />');
+                }
+            }
+
+            function unsetModerno() {
+                $('link').eq(2).remove();
+            }
+        </script>
     </body>
 </html>
