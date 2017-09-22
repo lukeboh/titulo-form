@@ -49,7 +49,7 @@ main::after {
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1;   
+    z-index: -1;
 }
 
 /*
@@ -197,4 +197,32 @@ label {
 #juiz-eleitoral{
     width: 328px;
     height: 16px;
+}
+
+/* 
+  Transicoes animadas
+*/
+
+main{
+    transition: border-color 2s;
+    transition-timing-function: linear;
+}
+main::after {
+    transition: background-image 2s/*, background-size 2s, background-position 2s*/, opacity;
+    transition-timing-function: linear;
+}
+
+h1, h2 {
+    transition: color 2s, font-family 2s, background-color 2s;
+    transition-timing-function: linear;
+}
+
+fieldset { 
+    transition: border-color 2s, border-radius 2s, background-color 2s;
+    transition-timing-function: linear;
+}
+
+legend {
+    transition: color 2s;
+    transition-timing-function: linear;
 }
